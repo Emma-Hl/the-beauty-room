@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway&display=swap');
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+ #logo {
+     font-family: 'Lobster';
+     color: #00232B;
+     font-size: 250%;
+     letter-spacing: 3px;
+     margin-left: 20px;
+     margin-top: 15px;
+ }
+
+
+body {
+    background-color: #FFEDF1;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: 'Raleway';
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu {
+    float: right;
+    color: #00232B;
+    font-family: 'Raleway';
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #00232B;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    text-align: center;
+}
+
+#menu li {
+    font-size: 1.2em;
+    display: inline;
+    letter-spacing: 1.4px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #00232B;
+}
+
+.main-image {
+   height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.left-title {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.about-us {
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.2em;
+}
+
+#content-wrap {
+    padding-bottom: 20rem;
+}
+
+
+
+footer {
+    background-color: #00232B;
+    width: 100%;
+    height: 80px;
+
+}
+
+footer p {
+    text-align: center;
+    color: #FFEDF1;
+    font-size: medium;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline-block;
+}
+
+.social-media i {
+    font-size: 30px;
+    margin:5%;
+    padding: 10%;
+    color: #FFEDF1;
+}
