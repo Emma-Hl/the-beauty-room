@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+header {
+    border-bottom: #00232B 12px solid;
+}
+
  #logo {
      font-family: 'Montserrat';
      color: #00232B;
@@ -23,6 +27,7 @@ body {
     padding: 0;
     min-height: 100%;
     font-family: 'Raleway';
+    color: #00232B;
 }
 
 #menu, #logo {
@@ -112,4 +117,36 @@ footer p {
     margin:5%;
     padding: 10%;
     color: #FFEDF1;
+}
+
+#treatments {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+
+.treatment-list {
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+}
+
+.treatment-list li {
+    list-style: none;
+}
+
+form {
+    width: 50%;
+    float: center;
+}
+
+input[type=text] {
+    padding: 20px;
+    margin: 8px 0;
+    border: none;
+    color:#FFEDF1;
+    background-color: #00232B;
 }
