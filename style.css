@@ -12,12 +12,13 @@ header {
 
  #logo {
      font-family: 'Montserrat';
-     color: #00232B;
-     font-size: 250%;
+     font-size: 180%;
      letter-spacing: 10px;
      margin-left: 20px;
      margin-top: 15px;
      text-transform: uppercase;
+     text-decoration: none;
+     color: #00232B;
  }
 
 
@@ -81,12 +82,13 @@ body {
 
 .about-us {
     text-align: center;
-    padding: 3rem;
+    padding: 1.5rem;
     font-size: 1.2em;
+    margin-bottom: 0;
 }
 
 #content-wrap {
-    padding-bottom: 20rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -94,7 +96,7 @@ body {
 footer {
     background-color: #00232B;
     width: 100%;
-    height: 80px;
+    height: 150px;
 
 }
 
@@ -131,22 +133,84 @@ footer p {
 .treatment-list {
     text-align: center;
     font-size: large;
-    padding: 20px;
 }
 
 .treatment-list li {
     list-style: none;
 }
 
-form {
+#treatment-box {
     width: 50%;
-    float: center;
+    background-color: #00232B;
+    color: #FFEDF1;
+    margin: 100px 0 100px 375px;
+    border-radius: 10%;
+    padding-bottom: 25px;
 }
 
-input[type=text] {
-    padding: 20px;
-    margin: 8px 0;
-    border: none;
-    color:#FFEDF1;
+.signup-form {
+    margin-top: 150px;
+    color: #FFEDF1;
     background-color: #00232B;
+    max-width: 400px;   
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    border-radius: 5%;
+}
+
+.signup-form h2 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.signup {
+    background: #FFEDF1;
+    color: #00232B;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border-radius: 2px;
+}
+
+.send {
+    background-color: #FFEDF1;
+    color: #00232B;
+    height: 35px;
+    width: 120px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-top: 0.5em;
+}
+
+#flowers {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.5;
+}
+
+#bottom {
+    margin-top: 800px;
+}
+
+footer p {
+    padding: 4px;
+}
+
+@media screen and (max-width 943px) {
+    #menu {
+        float: none;
+        width: 100%;
+        }
+    
+    #logo {
+        width: 100%;
+        font-size: medium;
+    }
+    
+    
 }

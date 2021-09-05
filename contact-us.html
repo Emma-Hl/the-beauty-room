@@ -19,29 +19,40 @@
         </ul>
     </nav>
 
-    <h2 id="logo">The Beauty Room</h2>
+    <h2><a id="logo" href="index.html">The Beauty Room</a></h2>
 
     </header>
 
-    <form>
+    <div>
+        <img id="flowers" src="https://images.pexels.com/photos/2512282/pexels-photo-2512282.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="dried flowers">
+
+
+    <form class="signup-form">
+
+        <h2>Appointment Request</h2>
+
         <label for="name">Name:</label>
-        <input id="name" type="text" name="name">
+        <input class="signup" id="name" type="text" name="name">
 
         <label for="email">Email:</label>
-        <input id="email" type="email" name="email">
+        <input class="signup" id="email" type="email" name="email">
 
         <label for="number">Contact Number:</label>
-        <input id="number" type="tel" name="telephone number">
+        <input class="signup" id="number" type="tel" name="telephone number">
 
         <label for="date">Appointment Date:</label>
-        <input id="date" type="date" name="appointment date">
+        <input class="signup" id="date" type="date" name="appointment date">
 
         <label for="requested-treatment">Requested Treatments:</label>
-        <input id="requested-treatment" type="text" name="requested treatment">
+        <input class="signup" id="requested-treatment" type="text" name="requested treatment">
 
-        <input type="submit" value="Send">
+        <input class="send" type="submit" value="Send">
     </form>
 
+</div>
+
+
+    <div id="bottom">
     <footer>
         <ul class="social-media">
             <li><a href="www.facebook.com"><i class="fab fa-facebook"></i></a></li>
@@ -50,9 +61,22 @@
             <li><a href="www.youtube.com"><i class="fab fa-youtube-square"></i></a></li>
         </ul>
     
-        <p>
-            Copyright The Beauty Room 2021
-        </p>
+        <p><i class="far fa-copyright"></i>
+            The Beauty Room 2021
+         </p>
+     
+         <p><i class="fas fa-map-marked-alt"></i>
+             The Beauty Room, High St, Cardigan, Sa43 2NN
+         </p>
+     
+         <p><i class="fas fa-paper-plane"></i>
+             thebeautyroom@email.com
+         </p>
+     
+         <p><i class="fas fa-phone"></i>
+             01239456654
+         </p>
     </footer>
+    </div>
 
     </body>
